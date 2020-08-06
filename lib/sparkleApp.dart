@@ -11,6 +11,16 @@ ThemeData lightTheme = ThemeData(
   primaryColorDark: Color(0xFFC871A8),
   accentColor: Color(0xFF7EAFAB),
   dividerColor: Color(0x1f6D42CE),
+  fontFamily: 'Rubik',
+  appBarTheme: AppBarTheme(
+    textTheme: ThemeData.dark().textTheme.copyWith(
+          headline6: TextStyle(
+            fontFamily: 'DancingScript',
+            color: Color(0xFF592C4B),
+            fontSize: 30.0,
+          ),
+        ),
+  ),
 );
 
 class SparkleApp extends StatelessWidget {
